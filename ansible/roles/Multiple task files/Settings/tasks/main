@@ -1,0 +1,6 @@
+---
+- include_tasks: "{{ item }}/main"
+  loop:
+    - Nautilus
+    - Power
+    - Screen

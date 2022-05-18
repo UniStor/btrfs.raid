@@ -1,0 +1,9 @@
+---
+- hosts: local
+  gather_facts: yes
+  vars_from: ../drives
+
+  roles:
+  - role: test
+  - role: Distro specific
+  - role: Meta multiple sub roles
